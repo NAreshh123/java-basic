@@ -1,0 +1,26 @@
+class Palendrom
+{
+	public static void main(String[] args) {
+		int sum=0;
+		int i=121;
+		int temp;
+		temp=i;
+	 while(i>0)
+	     {
+	 	  int last=i%10;
+	 	    sum=sum*10+last;
+	 	     i= i/10;
+	 	  }
+	 	  System.out.println(sum);
+	 	  
+          if(temp==sum)
+	 	  {
+	 	  	System.out.println("palendrom");
+	 	  }
+	 	  else
+	 	  {
+	 	  	System.out.println(" not a palendrom");
+	 	  }
+
+	}
+ }
