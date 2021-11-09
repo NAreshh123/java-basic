@@ -1,1 +1,21 @@
-class
+import java.lang.Math;   
+class Random  
+{   
+public static void main(String args[])   
+{    int min=10;
+	int max=100;
+// Generating random numbers  
+System.out.println(" Random Number: " + Math.random());   
+System.out.println(" Random Number: " + Math.random());  
+System.out.println(" Random Number: " + Math.random());   
+System.out.println(" Random Number: " + Math.random());
+
+double a=Math.random()*(max-min+1)+min;
+
+double b=Math.random()*(max-min+1)+min;
+
+int c=(int)Math.random()*(max-min+1)+min;
+System.out.println(a); 
+System.out.println(b);  
+}   
+}  
