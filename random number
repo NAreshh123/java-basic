@@ -4,7 +4,7 @@ class Random
 public static void main(String args[])   
 {    int min=10;
 	int max=100;
-// Generating random numbers  
+// Generating random numbers s
 System.out.println(" Random Number: " + Math.random());   
 System.out.println(" Random Number: " + Math.random());  
 System.out.println(" Random Number: " + Math.random());   
